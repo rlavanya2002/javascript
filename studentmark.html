@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>student details</title>
+</head>
+<body>
+     Name:<input type="text" id="fname"><br></br>
+     age:<input type="text" id="age"><br></br>
+     tamil:<input type="text" id="tamil"><br></br>
+     english:<input type="text" id="english"><br></br>
+     maths:<input tyep="text" id="maths"><br></br>
+     <button onclick="f()">submit</button>
+ <script>
+    function f()
+    {
+        x=document.getElementById('fname').value;
+        y=document.getElementById('age').value;
+        a=document.getElementById('tamil').value;
+        b=document.getElementById('english').value;
+        c=document.getElementById('maths').value;
+        d=Number(a)+Number(b)+Number(c);
+        e=(Number(a)+Number(b)+Number(c))/3;
+       document.write("The total mark is:"+" "+d+"<br>");
+       document.write("name:"+x+"<br>");
+       document.write("age:"+y+"<br>");
+       document.write("average:"+e);
+        
+      
+    }
+    </script> 
+</body>
+</html>
